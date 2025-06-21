@@ -20,7 +20,7 @@
 
 ```bash
 # Clone this repo (or download ZIP)
-git clone [workshop-repo-url]
+git clone https://github.com/VapiAI/example-hackathon-demo.git
 cd vapi-workshop
 
 # Install dependencies
