@@ -168,7 +168,7 @@ vapi-workshop/
 
 - During workshop: Raise your hand!
 - After workshop: Join our Discord channel #vapi-workshop
-- Email: <workshop@yourdomain.com>
+- Email: <dan@vapi.ai>
 
 ---
 

@@ -436,17 +436,19 @@ function App() {
       </div>
 
       {/* Instructions */}
-      <div className="max-w-6xl mx-auto mt-6 bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white">
-        <h3 className="font-semibold mb-3">💡 How to use:</h3>
-        <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
-          <li>• Click the big button to start/stop conversation</li>
-          <li>• Speak naturally - your Study Buddy will respond</li>
-          <li>• Click the mic status to mute/unmute</li>
-          <li>• Try the preset commands for common requests</li>
-          <li>• Say "goodbye" or "end call" to finish</li>
-          <li>• Watch partial transcripts update in real-time</li>
-        </ul>
-      </div>
+      {!isActive && (
+        <div className="max-w-6xl mx-auto mt-6 bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white">
+          <h3 className="font-semibold mb-3">💡 How to use:</h3>
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
+            <li>• Click the big button to start/stop conversation</li>
+            <li>• Speak naturally - your Study Buddy will respond</li>
+            <li>• Click the mic status to mute/unmute</li>
+            <li>• Try the preset commands for common requests</li>
+            <li>• Say "goodbye" or "end call" to finish</li>
+            <li>• Watch partial transcripts update in real-time</li>
+          </ul>
+        </div>
+      )}
     </div>
   )
 }
