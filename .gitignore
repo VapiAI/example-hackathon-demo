@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# API Keys - NEVER commit these!
+*api-key*
+*API-KEY*
+credentials.js
+config.js
+
+# Build files
+build/
+.cache/
+
+# Testing
+coverage/
+*.lcov
+.nyc_output/
+
+# Misc
+.eslintcache
+.parcel-cache/ 
